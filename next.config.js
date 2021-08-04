@@ -2,7 +2,7 @@ module.exports = {
   env: {
     //
     // BASE_URL: "http://localhost:3000",
-    BASE_URL:"https://e-commerce-8082sscny-iswaryagit.vercel.app/?search=all",
+    BASE_URL:"https://e-commerce-chi-lovat.vercel.app/",
     MONGODB_URL:
       "mongodb+srv://iswarya:kavin@cluster0.pmoiv.mongodb.net/E-Commerce?retryWrites=true&w=majority",
     ACCESS_TOKEN_SECRET: "iswarya12332377947551327083",
