@@ -1,0 +1,91 @@
+.heading {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    letter-spacing: 3px;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: #333;
+    position: relative;
+}
+
+.heading::after {
+    content: "";
+    width: 10rem;
+    height: .8rem;
+    background-color: #45e19f;
+    position: absolute;
+    bottom: -1.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 2rem;
+}
+
+@media screen and (min-width: 500px) {
+
+    .logo {
+        float:left;
+    }    
+}
+
+@media screen and (max-width: 600px) {
+.logo {
+    align-items: left;
+    float: none;
+    justify-content: left;
+    text-align:left;
+    margin-left: 20px;
+}
+
+.aboutcontainer {
+    align-items: left;
+    justify-content: left; 
+    text-align:left;
+}
+
+.aboutdetail {
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.heading {
+    justify-content: left;
+    float: left;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+
+}
+
+.aboutcontainer {
+    padding-bottom: 0.5rem;
+}
+
+.spacing {
+padding-top: 50px;
+}
+
+.spacing2 {
+    padding-top: 5px;
+    }
+
+.aboutdetail {
+    justify-content: space-evenly;
+    padding-left: 20px;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.logo {
+    margin-top: 20px;
+    height: 250px;
+    padding: 5px;
+    margin-right: 30px;
+    border-radius: 10px;
+    box-shadow: 10px 5px 15px rgba(59, 43, 91, 0.3);
+}
+
+
