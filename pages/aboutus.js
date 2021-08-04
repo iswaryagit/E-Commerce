@@ -9,7 +9,7 @@ const Aboutus = () => {
         <img src="/E Mart.png" alt="E-Mart Logo" className="logo" />
         <p className="spacing aboutdetail">
           E-Mart is a constantly evolving technological infrastructure which
-          connects this vast and diverse region and offers Singapore a shopping
+          connects this vast and diverse region and offers a shopping
           experience that is safe, seamless, and enjoyable.{" "}
         </p>
         <p className="spacing2 aboutdetail">
