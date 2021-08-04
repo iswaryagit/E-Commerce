@@ -161,7 +161,7 @@ const Cart = () => {
         </form>
 
         <h3>
-          Total: <span className="text-danger">${total}</span>
+          Total: <span className="text-danger">Rs. {total}</span>
         </h3>
 
         <Link href={auth.user ? "#!" : "/signin"}>
