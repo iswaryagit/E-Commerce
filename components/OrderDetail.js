@@ -122,7 +122,7 @@ const OrderDetail = ({ orderDetail, state, dispatch }) => {
                     </h5>
 
                     <span className="text-info m-0">
-                      {item.quantity} x ${item.price} = $
+                      {item.quantity} x Rs. {item.price} = Rs. 
                       {item.price * item.quantity}
                     </span>
                   </div>
@@ -133,7 +133,7 @@ const OrderDetail = ({ orderDetail, state, dispatch }) => {
 
           {!order.paid && auth.user.role !== "admin" && (
             <div className="p-4">
-              <h2 className="mb-4 text-uppercase">Total: ${order.total}</h2>
+              <h2 className="mb-4 text-uppercase">Total: Rs. {order.total}</h2>
               <PaypalBtn order={order} />
             </div>
           )}
